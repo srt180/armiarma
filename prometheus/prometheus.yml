@@ -17,4 +17,4 @@ rule_files:
 scrape_configs:
   - job_name: 'crawler'
     static_configs:
-      - targets: ['localhost:9080']
+      - targets: ['eth2Crawler:9080']
